@@ -16,6 +16,10 @@ export {
     type RemoteWorkElement
 } from './remote-work/schema';
 export {
+    RequestCreateWorkflowElementSchema,
+    type RequestCreateWorkflowElement
+} from './request-create-workflow/schema';
+export {
     RequestDetailsWorkflowElementSchema,
     type RequestDetailsWorkflowElement
 } from './request-details-workflow/schema';
