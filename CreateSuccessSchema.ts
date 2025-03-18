@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const CreateSucessSchema = z.object({
+export const CreateSuccessSchema = z.object({
   status: z.string(),
   message: z.string(),
   data: z.object({
