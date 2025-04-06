@@ -4,26 +4,31 @@ export { ResultSchema } from "./resultSchema";
 export { HolidayElementSchema, type HolidayElement } from "./holiday/schema";
 
 export {
+  ChangeBankAccountElementSchema,
+  type ChangeBankAccountElement
+} from './change-bank-account/schema';
+export {
   MedicalInsuranceElementSchema,
-  type MedicalInsuranceElement,
+  type MedicalInsuranceElement
 } from "./medical-insurance/schema";
 export {
   PermissionElementSchema,
-  type PermissionElement,
+  type PermissionElement
 } from "./permission/schema";
 export {
   RemoteWorkElementSchema,
-  type RemoteWorkElement,
+  type RemoteWorkElement
 } from "./remote-work/schema";
 export {
   RequestCreateWorkflowElementSchema,
-  type RequestCreateWorkflowElement,
+  type RequestCreateWorkflowElement
 } from "./request-create-workflow/schema";
 export {
   RequestDetailsWorkflowElementSchema,
-  type RequestDetailsWorkflowElement,
+  type RequestDetailsWorkflowElement
 } from "./request-details-workflow/schema";
 export {
   SalaryIdentificationElementSchema,
-  type SalaryIdentificationElement,
+  type SalaryIdentificationElement
 } from "./salary-identification/schema";
+
