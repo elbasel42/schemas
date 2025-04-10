@@ -12,6 +12,10 @@ export {
   type DestinationElement
 } from './destination/schema';
 export {
+  HrLetterTypeSchema,
+  type HrLetterType
+} from './hr-letter-types/schema';
+export {
   MedicalInsuranceElementSchema,
   type MedicalInsuranceElement
 } from './medical-insurance/schema';
