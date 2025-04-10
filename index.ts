@@ -8,6 +8,10 @@ export {
   type ChangeBankAccountElement
 } from './change-bank-account/schema';
 export {
+  DestinationElementSchema,
+  type DestinationElement
+} from './destination/schema';
+export {
   MedicalInsuranceElementSchema,
   type MedicalInsuranceElement
 } from './medical-insurance/schema';
