@@ -7,6 +7,7 @@ export {
   ChangeBankAccountElementSchema,
   type ChangeBankAccountElement
 } from './change-bank-account/schema';
+export { CustodyElementSchema, type CustodyElement } from './custody/schema';
 export {
   DestinationElementSchema,
   type DestinationElement
