@@ -40,5 +40,6 @@ export {
   SalaryIdentificationElementSchema,
   type SalaryIdentificationElement
 } from './salary-identification/schema';
+export { TrainingElementSchema, type TrainingElement } from './training/schema';
 export { VacationTypeSchema, type VacationType } from './vacation-types/schema';
 
