@@ -1,17 +1,6 @@
 import * as z from "zod";
 
 
-export const CreateUidEnumSchema = z.enum([
-    "Fahad A. Alsuwailih",
-]);
-export type CreateUidEnum = z.infer<typeof CreateUidEnumSchema>;
-
-
-export const TypeSchema = z.enum([
-    "family_news",
-]);
-export type Type = z.infer<typeof TypeSchema>;
-
 export const FamilyNewSchema = z.object({
     "id": z.number(),
     "published": z.boolean(),
@@ -22,11 +11,11 @@ export const FamilyNewSchema = z.object({
     "attachment_file_name": z.boolean(),
     "resume": z.string(),
     "description": z.string(),
-    "type": TypeSchema,
+    "type": z.string(),
     "tag_ids": z.array(z.any()),
     "comment_ids": z.array(z.number()),
     "like_ids": z.array(z.number()),
-    "create_uid": z.array(z.union([CreateUidEnumSchema, z.number()])),
+    "create_uid": z.array(z.union([z.number(), z.string()])),
     "create_date": z.coerce.date(),
     "write_uid": z.array(z.union([z.number(), z.string()])),
     "write_date": z.coerce.date(),

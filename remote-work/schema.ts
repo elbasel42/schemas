@@ -3,6 +3,7 @@ import * as z from "zod";
 
 export const CreateUidEnumSchema = z.enum([
     "Mahmoud N. Albakr",
+    "Shatha M. Alsaeed",
 ]);
 export type CreateUidEnum = z.infer<typeof CreateUidEnumSchema>;
 
@@ -45,6 +46,7 @@ export type SectorIdEnum = z.infer<typeof SectorIdEnumSchema>;
 
 export const StateSchema = z.enum([
     "done",
+    "draft",
 ]);
 export type State = z.infer<typeof StateSchema>;
 
@@ -59,6 +61,7 @@ export const WriteUidEnumSchema = z.enum([
     "Jaber A. Alfaleh",
     "Nouf A. Alnabulsi",
     "Omar Saleh A Alsadhan",
+    "Shatha M. Alsaeed",
     "Waleed F. Aldowayan",
 ]);
 export type WriteUidEnum = z.infer<typeof WriteUidEnumSchema>;
